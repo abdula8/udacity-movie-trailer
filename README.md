@@ -3,6 +3,7 @@
 Source code for a Movie Trailer website.
 
 Pre-requisites:
+- Git installed and available on the system PATH
 - Python 2.7 installed and available on the system PATH
 
 Steps to run the application:
