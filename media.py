@@ -7,8 +7,8 @@ class Movie():
         '''
         :param title: Movie title.
         :param storyline: Movie plot.
-        :param youtube_link: url to the youtube trailer
-        :param poster_image_url: url to the movie image
+        :param youtube_link: URL of the youtube trailer
+        :param poster_image_url: URL of the movie image
         '''
         self.title = title
         self.storyline = storyline
