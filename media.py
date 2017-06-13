@@ -3,7 +3,8 @@ class Movie():
     The representation of a movie
     '''
 
-    def __init__(self, title, storyline, trailer_youtube_url, poster_image_url):
+    def __init__(self,
+                 title, storyline, trailer_youtube_url, poster_image_url):
         '''
         :param title: Movie title.
         :param storyline: Movie plot.
