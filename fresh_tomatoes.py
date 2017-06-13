@@ -2,7 +2,7 @@ import webbrowser
 import os
 import re
 
-from movie_list import movie_list
+from movie_list import get_movie_list
 
 # Styles and scripting for the page
 with open('page_header.html', 'r') as header:
@@ -57,4 +57,5 @@ def open_movies_page(movies):
     webbrowser.open('file://' + url, new=2)
 
 if __name__ == '__main__':
+    movie_list = get_movie_list()
     open_movies_page(movie_list)
